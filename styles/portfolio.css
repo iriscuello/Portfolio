@@ -60,6 +60,22 @@ p {
   color: var(--secondary-font-color);
 }
 
+.about-section  h1{
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section  h2{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.about-section  p {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+color: var(--secondary-font-color);
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
