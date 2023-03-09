@@ -74,7 +74,7 @@ nav li.active a {
 }
 
 #main-nav {
-  max-width: 1600px;
+  max-width: 1500px;
 }
 
 .about-nav {
@@ -82,12 +82,9 @@ nav li.active a {
 }
 
 #about-content {
-  max-width: 1600px;
-}
-
-#work-nav {
   max-width: 1500px;
 }
+
 
 .hero {
   background-color: var(--secondary-color);
@@ -111,15 +108,15 @@ nav li.active a {
 }
 
 #main-heading {
-  max-width: 1600px;
+  max-width: 1500px;
 }
 
 .content {
   margin: 30px;
 }
 .content-container {
-  padding: 130px 20px;
-  max-width: 1600px;
+  padding: 120px 20px;
+  max-width: 1500px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -135,12 +132,9 @@ nav li.active a {
   font-family: var(--default-font-family);
   color: var(--secondary-font-color);
 }
-.work-heading {
-  max-width: 900px;
-}
 
 #contact-content {
-  max-width: 900px;
+  max-width: 1300px;
 }
 
 .content h3 {
@@ -156,7 +150,21 @@ nav li.active a {
   border-radius: 20px;
 }
 .translation-pic {
-  height: 700px;
+  height: 825px;
+}
+
+.my-pic {
+ padding-left: 200px;
+ padding-right: 0;
+}
+
+#work-nav {
+  max-width: 1500px;
+  padding-right: 50px;
+}
+
+#work-row {
+  margin: -30px;
 }
 
 img {
@@ -186,8 +194,10 @@ img {
   padding: 120px 60px;
 }
 
+
 footer {
-  margin: 198px 0;
+  margin: 198px 0 100px;
+  
 }
 footer .email-link {
   text-decoration: none;
@@ -199,9 +209,9 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 footer .contact-box {
-background: var(--secondary-color);
-padding: 30px 60px;
-border-radius: 10px;
+  background: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
 }
 
 footer .contact-box p{
@@ -210,61 +220,92 @@ footer .contact-box p{
 }
 
 footer .social-links a{
-margin: 20px;
-color: var(--branding-color);
-background-color: var(--secondary-color);
-padding: 10px 14px;
-font-size: 18px;
-transition: all 150ms ease-in-out;
+  margin: 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
 }
 
 footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
-
+footer .work-footer {
+  margin: 198px 50px;
+  max-width: 1500px;
+}
 
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
   }
-
+  
   h1 {
     font-size: 60px;
     line-height: 1.4;
   }
-
+  
   h2 {
     font-size: 44px;
   }
-
+  
   h4 {
     font-size: 26px;
   }
-
-
+  
   .btn {
     font-size: 16px;
-     line-height: 15px;
-  padding: 7px 15px;
-  margin-left: 10px;
+    line-height: 15px;
+    padding: 7px 15px;
+    margin-left: 10px;
   }
   .project-description {
     padding: 0;
     text-align: center;
   }
-
+  
   .content {
     text-align: center;
     padding: 0;
   }
+  
+  .content-container {
+    padding: 10px 20px;
+   
+  }
+  .content-container h1 {
+    line-height: 50px;
+    font-size: 40px;
+  }
 
+  .content-container h2 {
+    line-height: 50px;
+  }
+  
+  nav {
+    font-size: 14px;
+  }
+  
   nav a {
     font: 14px;
   }
 
+  #work-nav {
+    padding-right: 15px;
+  }
+  .translation-pic {
+    max-height: 311px;
+  }
+
+  .my-pic {
+    padding: 10px;
+  }
+  
   footer {
     margin-top: 70px;
+    
   }
   footer .contact-box {
 padding: 30px ;
