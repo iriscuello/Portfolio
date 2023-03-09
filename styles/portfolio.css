@@ -43,7 +43,9 @@ p {
 .subheading {
   font: 18px;
 }
-
+.main-heading {
+  padding: 0 30px;
+}
 .logo {
   max-height: 40px;
 }
@@ -116,7 +118,7 @@ nav li.active a {
   margin: 30px;
 }
 
-.content h1 {
+.work-heading {
   padding-right: 600px;
 }
 
