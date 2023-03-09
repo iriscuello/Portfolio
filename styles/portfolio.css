@@ -29,10 +29,15 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  color: var(--secondary-font-color);
 }
 
 .subheading {
@@ -44,7 +49,6 @@ p {
 }
 nav {
   padding: 20px 0;
-     
 }
 
 nav ul {
@@ -73,12 +77,16 @@ nav li.active a {
   max-width: 1600px;
 }
 
-.about-nav  {
+.about-nav {
   max-width: 1584px;
 }
 
 #about-content {
   max-width: 1600px;
+}
+
+#work-nav {
+  max-width: 1500px;
 }
 
 .hero {
@@ -110,7 +118,7 @@ nav li.active a {
   margin: 30px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 130px 20px;
   max-width: 1600px;
 }
 .content-container h1 {
@@ -178,6 +186,44 @@ img {
   padding: 120px 60px;
 }
 
+footer {
+  margin: 198px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .contact-box {
+background: var(--secondary-color);
+padding: 30px 60px;
+border-radius: 10px;
+}
+
+footer .contact-box p{
+  font-size: 18px;
+  margin: 0;
+}
+
+footer .social-links a{
+margin: 20px;
+color: var(--branding-color);
+background-color: var(--secondary-color);
+padding: 10px 14px;
+font-size: 18px;
+transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+
 @media (max-width: 900px) {
   .hero {
     padding: 80px 20px;
@@ -190,6 +236,18 @@ img {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+
+  .btn {
+    font-size: 16px;
+     line-height: 15px;
+  padding: 7px 15px;
+  margin-left: 10px;
   }
   .project-description {
     padding: 0;
@@ -204,4 +262,11 @@ img {
   nav a {
     font: 14px;
   }
+
+  footer {
+    margin-top: 70px;
+  }
+  footer .contact-box {
+padding: 30px ;
+}
 }
