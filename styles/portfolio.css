@@ -33,9 +33,13 @@ h4 {
   font-size: 48px;
 }
 
+h5 {
+  font-size: 30px;
+  font-family: var(--default-font-family);
+}
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   color: var(--secondary-font-color);
 }
@@ -52,6 +56,7 @@ p {
 
 nav {
   padding: 20px 0;
+  font-size: 20px;
 }
 
 nav ul {
@@ -85,9 +90,8 @@ nav li.active a {
 }
 
 #about-content {
-  max-width: 1500px;
+  width: 100%;
 }
-
 
 .hero {
   background-color: var(--secondary-color);
@@ -119,24 +123,25 @@ nav li.active a {
 }
 
 .work-heading {
-  padding-right: 600px;
+  padding-right: 500px;
 }
 
 .content-container {
   padding: 120px 20px;
-  max-width: 1500px;
+  width: 100%;
 }
 .content-container h1 {
-  font-size: 64px;
+  font-size: 70px;
   line-height: 80px;
 }
 .content-container h2 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   line-height: 80px;
+  font-family: var(--default-font-family);
 }
 .content-container p {
-  font-size: 16px;
+  font-size: 20px;
   font-family: var(--default-font-family);
   color: var(--secondary-font-color);
 }
@@ -150,22 +155,18 @@ nav li.active a {
   font-family: var(--default-font-family);
   line-height: 1.5;
 }
-.content p {
-  font-size: 14px;
-}
 
 .content img {
   border-radius: 20px;
 }
+
 .translation-pic {
-  height: 825px;
+  height: 616px;
 }
-
 .my-pic {
- padding-left: 200px;
- padding-right: 0;
+  padding-left: 200px;
+  padding-right: 0;
 }
-
 
 #work-nav {
   max-width: 1500px;
@@ -176,9 +177,6 @@ nav li.active a {
   margin: -30px;
 }
 
-img {
-  max-height: 700px;
-}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -188,6 +186,9 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding:hover {
+  cursor: pointer;
 }
 
 .btn-branding-outline {
@@ -203,10 +204,8 @@ img {
   padding: 120px 60px;
 }
 
-
 footer {
   margin: 198px 0 100px;
-  
 }
 footer .email-link {
   text-decoration: none;
@@ -223,18 +222,21 @@ footer .contact-box {
   border-radius: 10px;
 }
 
-footer .contact-box p{
+footer .contact-box p {
   font-size: 18px;
   margin: 0;
 }
 
-footer .social-links a{
+footer .social-links a {
   margin: 20px;
   color: var(--branding-color);
   background-color: var(--secondary-color);
   padding: 10px 14px;
   font-size: 18px;
   transition: all 150ms ease-in-out;
+}
+.contact-footer {
+  margin: 50px 0 100px;
 }
 
 footer .social-links a:hover {
@@ -250,20 +252,25 @@ footer .work-footer {
   .hero {
     padding: 80px 20px;
   }
-  
+
   h1 {
     font-size: 60px;
     line-height: 1.4;
   }
-  
+
   h2 {
     font-size: 44px;
   }
-  
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+  }
   h4 {
     font-size: 26px;
   }
-  
+
   .btn {
     font-size: 16px;
     line-height: 15px;
@@ -274,18 +281,17 @@ footer .work-footer {
     padding: 0;
     text-align: center;
   }
-  
+
   .content {
     text-align: center;
     padding: 0;
   }
   .content h1 {
-    padding-right: 0
+    padding-right: 0;
   }
-  
+
   .content-container {
     padding: 10px 20px;
-   
   }
   .content-container h1 {
     line-height: 50px;
@@ -295,11 +301,11 @@ footer .work-footer {
   .content-container h2 {
     line-height: 50px;
   }
-  
+
   nav {
     font-size: 14px;
   }
-  
+
   nav a {
     font: 14px;
   }
@@ -308,18 +314,20 @@ footer .work-footer {
     padding-right: 15px;
   }
   .translation-pic {
-    max-height: 311px;
+    height: 500px;
+  }
+  .work-heading {
+    padding-right: 5px;
   }
 
   .my-pic {
     padding: 10px;
   }
-  
+
   footer {
     margin-top: 70px;
-    
   }
   footer .contact-box {
-padding: 30px ;
-}
+    padding: 30px;
+  }
 }
